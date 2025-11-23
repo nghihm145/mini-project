@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 
 
 @Entity
-@Table(name = "MONHOC")
+@Table(name = "MON_HOC")
 public class MonHoc {
 
     @Id

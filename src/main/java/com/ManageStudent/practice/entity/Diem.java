@@ -15,13 +15,13 @@ public class Diem {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "Ma_sinh_vien", nullable = false)
-    private SinhVien sinhVien;
-
-    @ManyToOne
-    @JoinColumn(name = "Ma_mon_hoc", nullable = false)
-    private MonHoc monHoc;
+//    @ManyToOne
+//    @JoinColumn(name = "Ma_sinh_vien", nullable = false)
+//    private SinhVien sinhVien;
+//
+//    @ManyToOne
+//    @JoinColumn(name = "Ma_mon_hoc", nullable = false)
+//    private MonHoc monHoc;
 
     @Column(name = "Diem_so", nullable = false)
     private Double diemSo;

@@ -1,6 +1,6 @@
 package com.ManageStudent.practice.controller;
 
-import com.practice.RESTfull.Entity.NumberTest;
+import com.ManageStudent.practice.entity.NumberTest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

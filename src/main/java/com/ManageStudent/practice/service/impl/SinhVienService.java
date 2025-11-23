@@ -11,6 +11,7 @@ public class SinhVienService implements ISinhVienService {
 
     @Override
     public SinhVien createSinhVien(SinhVien sinhvien) {
-        return sinhvienRepository.save(sinhvien);
+//        return sinhvienRepository.save(sinhvien);
+        return null;
     }
 }
